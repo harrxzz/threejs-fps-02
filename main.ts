@@ -1,10 +1,12 @@
-// A working threejs-fps-01 entry (Node 22, standard library only): the game is this directory's
-// game/ folder, plain static files the browser loads as ES modules with three.js from an import
-// map, and the program hands it in. It copies game/ and screenshots/ from beside this file to
-// /output and writes /output/dossier.json, the summary the judge reads, with the vendored make.fun
-// library. A starting point, not a winner: a grey room, one rifle and four targets that drop when
-// shot. Build your game, put your PNG or JPEG screenshots in screenshots/ (the first by name is
-// the cover) and run it.
+// SABLE LINE — a threejs-fps-02 entry (Node 22, standard library only): a round-based
+// tactical FPS. The game is this directory's game/ folder, plain static files the browser
+// loads as ES modules with three.js from an import map, and the program hands it in. It
+// copies game/ and screenshots/ from beside this file to /output and writes
+// /output/dossier.json, the summary the judge reads, with the vendored make.fun library.
+// Single-player vs bots on an original map: Buy (12s) -> Combat (100s) -> Buy rounds, first
+// to 5 wins, bomb plant/defuse, money and a buy menu, more than one weapon and a grenade.
+// Put your PNG or JPEG screenshots in screenshots/ (the first by name is the cover) and
+// run it.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
