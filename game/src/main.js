@@ -610,6 +610,8 @@ function runShot(name) {
     bots.damage(dead, 1000);
     bots.items[1].group.position.set(11, 0, -8);
     bots.damage(bots.items[1], 1000);
+    bots.damage(bots.items[2], 1000);
+    bots.damage(bots.items[3], 1000);
     aimAt(new THREE.Vector3(-13, 1.2, -11));
     settle(20);
     hud.showBanner('ROUND WON', 'All defenders eliminated — site A is yours.', 60000);
